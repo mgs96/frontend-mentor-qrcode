@@ -1,0 +1,49 @@
+.attribution {
+  font-size: 11px;
+  display: inline-block;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: lightgray;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.wrapper {
+  background-color: white;
+  width: 300px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  max-height: 450px;
+  flex: 1;
+}
+
+.wrapper p {
+  color: #a2a2a2;
+}
